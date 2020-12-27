@@ -258,7 +258,6 @@ h1 span{
 }
 
 .portfolio .site-notes {
-
   text-align: left;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -272,10 +271,7 @@ h1 span{
 /****************************about me styling *********************/
 
 .about .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-flow: row wrap;
+  max-width: 90%
 }
 
 .about {
@@ -284,6 +280,10 @@ h1 span{
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
   width: 100%;
 }
 
@@ -297,23 +297,22 @@ h1 span{
 
 .about h4 {
   font-weight: bold;
-}
-
-.about h4 {
   color: white;
   text-align: right;
   width: 50%;
   line-height: 32px;
+  margin: 0;
 }
 
 .about p {
   color: white;
   text-align: right;
   width: 50%;
+  margin: 0;
 }
 
 /*************************contact styling **********************/
-.contact .content-wrapper{
+.contact {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -326,35 +325,44 @@ h1 span{
   text-align: center;
   text-transform: lowercase;
   padding-top: 20px;
+  padding-bottom: 100px
   margin: 0;
 }
 
 .contact h4{
-  font-weight: bold;
-  padding: 20px;
-  margin: 0;
-}
-
-.contact a {
-  color: white;
-  text-transform: lowercase;
-  padding: 20px;
-  margin: 0;
-}
-
-.contact ul {
-  margin: 0;
-  padding: 0;
-}
-
-.contact ul li {
-  display: inline-block;
-  text-decoration: none;
   text-align: center;
-  padding: 10px;
+  font-weight: bold;
+  padding-top: 10px;
   margin: 0;
 }
 
+.contact .email {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;s
+}
+
+.contact .email a {
+  color: white;
+  text-decoration: none;
+  text-transform:lowercase;
+  padding: 0px;
+  margin: 0;
+}
+
+.contact .social {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.contact .social i {
+  color: #F42C04;
+  text-decoration: none;
+  font-size: 1.88em;
+}
 
 /* ==========================================================================
    Helper classes
