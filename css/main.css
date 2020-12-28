@@ -233,10 +233,6 @@ h1 span{
   flex-flow: row wrap;
 }
 
-.portfolio .content-wrapper {
-  max-width: 360px;
-}
-
 .portfolio h2 {
   color: #F42C04;
   text-align: center;
@@ -331,7 +327,7 @@ h1 span{
   text-align: center;
   text-transform: lowercase;
   padding-top: 20px;
-  padding-bottom: 100px
+  padding-bottom: 10px;
   margin: 0;
 }
 
@@ -463,9 +459,120 @@ h1 span{
 
 /* General Styles */
 
+body {
+  font-size: 1em;
+}
 
+h1 {
+  font-size: 3em;
+}
 
+h2 {
+  font-size: 2.25em;
+}
 
+h3 {
+  font-size: 1.63em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+/***************************header/footer styles******************/
+header  {
+  justify-content: space-around;
+}
+
+header .content-wrapper {
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+header h3 {
+  width: 50%;
+}
+
+header nav {
+  font-size: 1.125em;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  text-align: right;
+}
+
+header nav ul li {
+  justify-content: space-between;
+}
+
+.header-divider {
+    display: none;
+}
+
+.contact .social i {
+  font-size: 3em;
+}
+
+footer .copyright {
+  font-size: .88em;
+}
+
+/****************************portfolio styles***************/
+
+.portfolio .portfolio-website{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio figure {
+  width: 40%;
+  height: auto;
+}
+
+.portfolio .site-notes {
+  justify-content: space-between;
+  width: 50%;
+}
+
+.portfolio h3 {
+  font-size: 1.3em;
+}
+
+.portfolio h4 {
+  font-size: 1.18em;
+}
+
+.portfolio p {
+  font-size: .88em;
+}
+
+.portfolio {
+  padding-bottom: 40px;
+}
+
+/*****************************about me styling*********************/
+
+.about {
+  height: 350px;
+}
+
+.about .content-wrapper {
+  padding-top: 50px;
+}
+
+.about h4 {
+  padding-bottom: 20px;
+}
 
 
 }
