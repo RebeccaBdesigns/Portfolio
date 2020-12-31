@@ -198,8 +198,8 @@ header figure {
 }
 
 header nav {
-  width: 65%;
-  font-size: 1.125em;
+  width: 100%;
+  font-size: .88em;
   text-transform: uppercase;
   font-weight: 700;
   display: flex;
